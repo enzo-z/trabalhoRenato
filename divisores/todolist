@@ -1,0 +1,8 @@
+## TODOLIST
+
+ - Implementar opção para seleção de numeros que o usuario quer usar
+ - Modificar a funcao getNumeros() para pegar x numeros que o usuario quer!
+ - Modificar a funcao calcular() para usar x numeros
+
+
+Talvez precise de uma funcao que crie os numeros com base nos numeros do usuario...
