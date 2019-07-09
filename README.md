@@ -1,9 +1,12 @@
 # REPOSITÓRIO PARA MEU TRABALHO BIMESTRAL
 Trabalho do professor Renato [1 bimestre] (Divisores, função quadrática e jogo da memória)
 
-## GUIA DOS DIRETÓRIOS ABAIXO!
+## ACESSE ABAIXO!
 
-Acesse a page (index.html).
+	https://enzo-z.github.io/trabalhorenato/
+
+
+## GUIA DOS DIRETÓRIOS ABAIXO!
 
 
 ### Divisores
