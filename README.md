@@ -2,8 +2,7 @@
 Trabalho do professor Renato [1 bimestre] (Divisores, função quadrática e jogo da memória)
 
 ## ACESSE ABAIXO!
-
-	https://enzo-z.github.io/trabalhorenato/
+https://enzo-z.github.io/trabalhorenato/
 
 
 ## GUIA DOS DIRETÓRIOS ABAIXO!
