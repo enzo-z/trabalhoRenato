@@ -3,21 +3,30 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <!-- Falta adicionar o viewport, autor, keywords etc p ficar dahorinha-->
+        <meta name = "Autor" content="Enzo Zamora">
+        <meta name="Viewport" content="width = device-width, initial-scale=1.0">
         <title> Show dividers</title>
+
+        <link rel="stylesheet" type="text/css" href="stylediv.css">
+
     </head>
 
 
     <body>
-        <div id ="container">
-            <input type="text" id="n1">
+        <div class="container">
+                <h1>Common Dividers</h1>
+        </div>
+        <div class="container">
+            <div id="user-entry">
+                <input type="text" id="n1">
 
-            <input type="text" id="n2">
+                <input type="text" id="n2">
+                <br>
+                <button type="submit" id="btn">Calcular</button>
+                <br>
 
-            <button type="submit" id="btn">Calcular</button>
-            <br>
-
-            <input type="text" readonly value="Resultados aqui" size="50" id="result">
+                <input type="text" readonly value="Insert your numbers above" size="50" id="result">
+            </div>
         </div>
 
 

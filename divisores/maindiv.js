@@ -1,5 +1,6 @@
+//COMMENTS ARE IN PORTUGUESE (pt-br)
 //JS do divisores
-/*Quis fazer algo mais flexível, para caso eu quisesse voltar a mexer nisso mais tarde, tornando mais complexin.
+/*Quis fazer algo mais flexível, para caso eu quisesse voltar a mexer nisso mais tarde, tornando mais sofisticado.
 Além disso, priorizei facilidade de manutenção e tentei fazer com uso de funções pra ficar fácil eu modificar.
 Podia ter feito bem menor, mas sla... Dps dê uma olhada, Enzo do futuro! Vc será mais inteligente que eu!
  Data: Julho de 2019 
@@ -18,7 +19,7 @@ function getNumeros (){
     console.log("Clicou!");
     var numeros = new Array(2);
     if (document.getElementById("n1").value % 1 != 0 || document.getElementById("n2").value % 1 != 0){
-        alert("INSIRA APENAS NUMEROS POSITIVOS INTEIROS!")
+        alert("INSERT ONLY INTEGER NUMBERS!")
     }
     //Pegando meus numeros. Quero ver uma forma de fazer isso c um loop dps, p caso quisesse adicionar + nmrs
     else{
@@ -64,10 +65,15 @@ function  calcular(numeros){
 }
 // Metodo para mostrar os numeros na page!
 function mostrar(resultados, numeros){
-    resultElement.value = "Divisores comuns entre "+numeros[0]+" e "+numeros[1]+": ";
+    resultElement.value = "Common dividers between "+numeros[0]+" and "+numeros[1]+": ";
     console.log("DENTRO DO MOSTRAR");
-    resultados.forEach(function(valor){
-        resultElement.value += valor+" "; 
+    resultados.forEach(function(valor, index){
+        if (index != resultados.length - 1){
+            resultElement.value += valor+", "; 
+        }
+        else{
+            resultElement.value += valor+".";
+        }
     })
     console.log("saiu do mostrar!");
     return;
