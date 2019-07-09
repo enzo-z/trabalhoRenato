@@ -13,11 +13,11 @@ Acesse a page (index.html).
     PERSONAL NOTE: Em outra branch ("divide"), tentarei sofisticar ele um pouco para que ele mostre os divisores comuns de quantos números o usuário decidir entrar.
 
 
-### Funcquad [Tenho que revisar a funcao drawParabola()]
+### Funcquad [Quero revisar o metodo drawParabola()]
 
     Código para mostrar as raízes de uma função quadrática, bem como seu vértice no eixo x (VX), e vértice no eixo y (vy) e desenhar um gráfico dela.
      
-    Funciona muito bem com raízes reais, mas acho que tenho que melhorar a função drawParabola()!
+    Funcionou nos meus testes, mas a funcao drawParabola() consegue ser otimizada e mais bem feita. Ficou confusa, não está do jeito que quero!
 
 
 ### Memory [EM FASE DE REVISÃO, DEVE FICAR PRONTO ATÉ O DIA 10/07]
