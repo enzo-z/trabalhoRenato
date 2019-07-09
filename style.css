@@ -3,16 +3,16 @@
     padding: 0;
     
 }
-
+  /* ELEMENTS */
 body{
     background-color: black;
 }
 
 h1{
-
+    font-size: 45px;
     font-family: 'Azonix', Helvetica, Arial;
     color: whitesmoke;
-    text-shadow: 1px 1px 3px #420000, 0px 0px 5px #ff0000 ;
+    text-shadow: 1px 1px 3px #420000, 0px 0px 6px #ff0000 ;
 }
 
 a{  
@@ -22,26 +22,33 @@ a{
 
 button{  
     margin-top: 10px;
-    width: 120px;
-    height: 40px;
+    width: 200px;
+    height: 80px;
     margin: 40px;
     border-radius: 10px;
-    background: #333333;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #202020;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #202020);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: whitesmoke;
     border-color: black;
     font-family: 'Azonix', Helvetica, Arial;
+    font-size: 15px;
     box-shadow: 0px 0px 8px #ff0000;
 }
 
+button:hover{
+    color: whitesmoke;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+ /* CLASS */
 .container{
     background-color: black;
-    margin-top: 275px;
+    margin-top: 200px;
     padding: 10px;
     text-align: center;
 }
 
+ /* IDS */
 #menu{
     background-color: black;
     display: inline-block;
