@@ -5,16 +5,33 @@
         <meta charset="UTF-8">
         <meta name = "Autor" content="Enzo Zamora">
         <meta name="Viewport" content="width = device-width, initial-scale=1.0">
-
-
+        
+        <link rel="stylesheet" type="text/css" href="stylequad.css">
+        <title>Quadratic Function</title>
     </head>
 
 
     <body>
+            <div class ="container" id="input">
+            <input type="text" id="a">
 
+            <input type="text" id="b">
+            
+            <input type="text" id="c">
+
+            <button type="submit" id="btn">Calculate</button>
+            
+
+            <span id="roots">R1 e R2</span>
+            <span id="vertices">Vx e Vy</span>
+        </div>
+            <br>
+        <canvas id="canvas" style="border-style: solid"> </canvas>
+        
 
 
         <script src="mainquad.js"></script>
+        <script src="canvasconf.js"></script>
     </body>
 
 
