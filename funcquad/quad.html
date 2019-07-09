@@ -12,21 +12,33 @@
 
 
     <body>
-            <div class ="container" id="input">
-            <input type="text" id="a">
+        
+        <div class="container">
+            <h1>Quadratic Function</h1>
+        </div>
 
+         <div class ="container" id="user-entry">
+            <text> a:</text> 
+            <input type="text" id="a" >
+            <text>b</text>
             <input type="text" id="b">
-            
+            <text>c:</text>
+        
             <input type="text" id="c">
-
+            <br>
             <button type="submit" id="btn">Calculate</button>
             
-
-            <span id="roots">R1 e R2</span>
-            <span id="vertices">Vx e Vy</span>
-        </div>
             <br>
-        <canvas id="canvas" style="border-style: solid"> </canvas>
+            <input id = "root1" type="text" readonly value ="Root 1:">
+            <input id = "root2" type="text" readonly value ="Root 2: ">
+            <br>
+            <input id = "vertex1" type="text" readonly value ="Vertex 1:">
+            <input id = "vertex2" type="text" readonly value ="Vertex 2: ">
+            <span id="vertices"></span>
+            <br>
+            <canvas id="canvas" style="border-style: solid"> </canvas>
+        </div>
+        
         
 
 

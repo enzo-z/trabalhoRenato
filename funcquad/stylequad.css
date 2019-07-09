@@ -2,3 +2,94 @@
     margin: 0;
     padding: 0;
 }
+/* ELEMENTS */
+body{
+    background-color: black;
+}
+
+input{
+    text-align: center;
+    font-family: 'Azonix', Helvetica, Arial;
+    color:black;
+}
+
+
+h1{
+    
+    display: inline-block;
+    margin-top: 5px;
+    width: 300px;
+    padding: 10px;
+    font-size: 35px;
+    border-style: solid;
+    border-radius: 10px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #202020);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    border-color: black;
+    font-family: 'Azonix', Helvetica, Arial;
+    box-shadow: 0px 0px 10px  #ff0000;
+}
+
+text{
+    font-family: 'Azonix', Helvetica, Arial;
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px #ff0000;   
+}
+
+h1:hover{
+    box-shadow: 0px 0px 12px whitesmoke;
+    color: white;
+    border-color: whitesmoke;
+}
+
+/* CLASS*/
+.container{
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* IDS */
+#user-entry{
+    margin-top: 15px;
+}
+
+#btn{
+    margin: 10px;
+    font-family: 'Azonix', Helvetica, Arial;
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+    background-color: #ff0000;
+    color: black;
+    box-shadow: 0px 0px 8px rgb(255, 0, 0);
+}
+
+#btn:hover{
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+
+#root1{
+    width: 300px;
+    
+}
+
+#root2{
+    width: 300px;
+}
+
+#vertex1{
+    width: 300px;
+}
+
+#vertex2{
+    width: 300px;
+}
+
+#canvas{
+    border-color: #202020;
+    background-color: white;
+}
