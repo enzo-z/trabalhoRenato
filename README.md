@@ -26,7 +26,9 @@ https://enzo-z.github.io/trabalhorenato/
     
     Código de um jogo da memória.
     Minha ideia de como fazer aparentemente deu errado. Mesmo após a entrega do trabalho, vou continuar a desenvolvê-lo porque estou irritado que não funcionou.
-    -Todolist:
+   	
+	[Previsão para término total: 13/07. Se não funcionar, vou ficar pistola] 
+     -Todolist:
 	Fazer o reconhecimento do click, talvez baseado no nome ou no src. Não sei ainda!
 		
 
