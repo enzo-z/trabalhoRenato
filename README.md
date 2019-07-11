@@ -22,10 +22,13 @@ https://enzo-z.github.io/trabalhorenato/
     Funcionou nos meus testes, mas a funcao drawParabola() consegue ser otimizada e mais bem feita. Ficou confusa, não está do jeito que quero!
 
 
-### Memory [EM FASE DE REVISÃO, DEVE FICAR PRONTO ATÉ O DIA 10/07]
+### Memory [EM FASE DE REVISÃO, ESTOU TENDO DIFICULDADE]
     
-    Código de um jogo da memória. Tive alguns bugs com ele, e quero estilizá-lo mais, então devo finalizá-lo logo mais. 
-
+    Código de um jogo da memória.
+    Minha ideia de como fazer aparentemente deu errado. Mesmo após a entrega do trabalho, vou continuar a desenvolvê-lo porque estou irritado que não funcionou.
+    -Todolist:
+	Fazer o reconhecimento do click, talvez baseado no nome ou no src. Não sei ainda!
+		
 
 
 
