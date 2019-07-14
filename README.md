@@ -29,7 +29,7 @@ Código para mostrar as raízes de uma função quadrática, bem como seu vérti
  Código de um jogo da memória. Há um readme.md próprio deste código no diretório "memory", com minhas observações!
 ###### Créditos para [Marina Ferreira](https://marina-ferreira.github.io/) and her [YouTube tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1128s).
 
-	Os próximos commits neste repositório seram meros detalhes de estilo, e talvez adição de sons. 
+	Os próximos commits neste repositório serão meros detalhes de estilo, e talvez adição de sons. 
 	Isso será feito futuramente em outra branch ("memory"). 	
 		
 
