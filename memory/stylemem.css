@@ -16,21 +16,24 @@ body{
 .game{
     
     margin: 0 auto;
-    width: 500px;
-    height: 550px;
+    width: 900px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid greenyellow;
+    perspective: 1200px;
     
 
 }
 
 .card{
-    width: calc(25% - 6px);
+    width: calc(16.666666667% - 6px);
     height: calc(33.333% - 6px);
     position: relative;
     margin: 3px;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .6s;
 }
 
 .card:active{
@@ -46,4 +49,15 @@ body{
     position: absolute;
     border: 2px solid purple;
     background: rgb(158, 158, 230);
+    backface-visibility: hidden;
+
 }
+
+.front{
+    transform: rotateY(180deg);
+}
+.card.turn{
+    transform: rotateY(180deg);
+}
+
+
