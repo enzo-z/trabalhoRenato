@@ -4,13 +4,15 @@ Bom, primeiro eu tentei fazer tudo quase que sozinho. Não tive problemas nas et
 
 Precisei de ajuda em:
 	
-	1. Desabilitar o turn, se as cartas fossem iguais. Isso eu tive que praticamente imitar o tutorial do qual forneci os créditos. Entendi o que ela fez, mas queria desenvolver um método próprio. Vou ver se revejo isso!
+	1. Desabilitar o turn, se as cartas fossem iguais. Isso eu tive que praticamente imitar o tutorial do qual forneci os créditos. 
+	Entendi o que ela fez, mas queria desenvolver um método próprio. Vou ver se revejo isso!
 	
-	2. Não observei as exceções. Isso, o tutorial que me fez notar (caso o usuário clicasse 2 vezes, etc). Tenho que aprender a ter a visão disso. 
+	2. Não observei as exceções(caso o usuário clicasse 2 vezes na mesma carta, etc). Isso o tutorial que me fez notar.
+	Tenho que aprender a ter a visão disso! 
 
 	
 
-Mas felizmente, compreendi tudo que ela fez no tutorial. Vou fazer umas anotações tho.
+##### Felizmente, compreendi tudo que ela fez no tutorial. Vou fazer umas anotações tho.
 
 ### O que eu aprendi graças a esse jogo (CSS):
 
@@ -24,7 +26,7 @@ Mas felizmente, compreendi tudo que ela fez no tutorial. Vou fazer umas anotaç�
 	2. O lance da backface visibility
 
 
-# O que eu aprendi graças ao jogo (JS):
+### O que eu aprendi graças ao jogo (JS):
 	1. Uso do addEventListener e do removeEventListener
 	2. Invocar a função imediatamente após a declaração (IIFE - Immediately Invoked Function Expression)
 
