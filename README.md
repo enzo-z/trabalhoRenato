@@ -8,28 +8,29 @@ https://enzo-z.github.io/trabalhorenato/
 ## GUIA DOS DIRETÓRIOS ABAIXO!
 
 
-### Divisores
+### Divisores [FUNCIONANDO 100%]
 
-    Código para mostrar os divisores comuns entre dois números, funcionando em perfeito estado.
+Código para mostrar os divisores comuns entre dois números, funcionando em perfeito estado.
     
     PERSONAL NOTE: Em outra branch ("divide"), tentarei sofisticar ele um pouco para que ele mostre os divisores comuns de quantos números o usuário decidir entrar.
 
 
-### Funcquad [Quero revisar o metodo drawParabola()]
+### Funcquad [FUNCIONANDO 100%] (Quero revisar o metodo drawParabola())
 
-    Código para mostrar as raízes de uma função quadrática, bem como seu vértice no eixo x (VX), e vértice no eixo y (vy) e desenhar um gráfico dela.
+Código para mostrar as raízes de uma função quadrática, bem como seu vértice no eixo x (VX), e vértice no eixo y (vy) e desenhar um gráfico dela.
      
-    Funcionou nos meus testes, mas a funcao drawParabola() consegue ser otimizada e mais bem feita. Ficou confusa, não está do jeito que quero!
+    Funcionou nos meus testes, mas a funcao drawParabola() consegue ser otimizada e mais bem feita. Não está do jeito que eu quero, irei trabalhar este código em outra branch ("quad") futuramente.
 
 
-### Memory [EM FASE DE REVISÃO, ESTOU TENDO DIFICULDADE]
+### Memory [100% PRONTO]
     
-    Código de um jogo da memória.
-    Minha ideia de como fazer aparentemente deu errado. Mesmo após a entrega do trabalho, vou continuar a desenvolvê-lo porque estou irritado que não funcionou.
-   	
-	[Previsão para término total: 13/07. Se não funcionar, vou ficar pistola] 
-     -Todolist:
-	Fazer o reconhecimento do click, talvez baseado no nome ou no src. Não sei ainda!
+ Código de um jogo da memória. Há um readme.md próprio deste código no diretório "memory", com minhas observações!
+###### Créditos para [Marina Ferreira](https://marina-ferreira.github.io/) and her [YouTube tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1128s).
+	Os próximos commits neste repositório seram meros detalhes de estilo, e talvez adição de sons. Isso será feito em outra branch ("memory") futuramente. 	
+
+	   	
+
+	[
 		
 
 
