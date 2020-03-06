@@ -11,9 +11,37 @@ body{
     background-color: black;
 
 }
+h1{
+    
+    display: inline-block;
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    font-size: 35px;
+    border-style: solid;
+    border-radius: 10px;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #202020);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    border-color: black;
+    font-family: 'Azonix', Helvetica, Arial;
+    box-shadow: 0px 0px 10px  #ff0000;
+}
 
+h1:hover{
+    box-shadow: 0px 0px 12px whitesmoke;
+    color: white;
+    border-color: whitesmoke;
+}
 
 /* Class */
+
+.container{
+    width: 100%;
+    text-align: center;
+    
+}
 .game{
     
     margin: 0 auto;

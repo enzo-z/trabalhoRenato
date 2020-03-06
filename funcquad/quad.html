@@ -14,7 +14,7 @@
     <body>
         
         <div class="container">
-            <h1>Quadratic Function</h1>
+            <h1 onmouseover="changeBack(this)" onmouseout="changeAgain(this)">Quadratic Function</h1>
         </div>
 
          <div class ="container" id="user-entry">
@@ -41,6 +41,18 @@
         
         <script src="mainquad.js"></script>
         <script src="canvasconf.js"></script>
+        <script>
+            function changeBack(elementH1){
+                elementH1.innerHTML = "Home";
+                elementH1.addEventListener("click", () =>{
+                    location.assign("../index.html");
+                })
+            }
+            function changeAgain(elementH1){
+                elementH1.innerHTML = "Quadratic Function";
+            }
+
+        </script>
     </body>
 
 

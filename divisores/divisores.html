@@ -15,7 +15,7 @@
     <body>
         <div class="container" >
             <div id="caixa">
-                <h1>Common Dividers</h1>
+                <h1 onmouseover="changeBack(this)" onmouseout="changeAgain(this)">Common Dividers</h1>
             </div>
         </div>
         <div class="container">
@@ -32,5 +32,17 @@
         </div>
 
         <script src="maindiv.js"></script>
+        <script>
+            function changeBack(elementH1){
+                elementH1.innerHTML = "Home";
+                elementH1.addEventListener("click", () =>{
+                    location.assign("../index.html");
+                })
+            }
+            function changeAgain(elementH1){
+                elementH1.innerHTML = "Common Dividers";
+            }
+
+        </script>
     </body>
 </html>
